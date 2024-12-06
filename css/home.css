@@ -1,0 +1,101 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Montserrat, medium;
+}
+
+.container-fluid {
+    background: linear-gradient(180deg, rgba(255,249,249,1) 0%, rgba(58,137,255,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    font-family: Moul, sans-serif;
+    color: #235299;
+}
+
+.navbar-nav .nav-item {
+    font-family: Montserrat, medium;
+    margin-right: 1.5rem;
+    color: #235299;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-nav .nav-link {
+    color: #235299;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1d3f6e;
+}
+
+
+.login-button {
+    display: inline-block;
+    padding: 0px 2px;
+    border-radius: 10px;
+    border: 2px solid #3A89FF;
+    background-color: #3A89FF;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.login-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: white;
+    border-color: #3A89FF;
+}
+
+.login-button:hover a {
+    color: #235299;
+}
+
+.lead{
+    font-family: La Belle Aurore;
+    color: #3A89FF;
+    font-size: 2em;
+}
+
+.description{
+    margin-top: 10em;
+}
+
+.system{
+    color:#235299
+}
+
+.system-name{
+    font-size: 70px;
+    font-weight: bold;
+    color:#235299
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 2px;
+    border-radius: 20px;
+    border: 2px solid #3A89FF;
+    background-color: #C2E8FF;
+    color: #235299;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    filter: drop-shadow();
+
+}
