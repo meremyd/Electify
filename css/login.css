@@ -69,3 +69,10 @@ body, html {
 .login{
     margin-top: 30em !important;
 }
+
+.card{
+    background: rgb(35,82,153);
+    background: linear-gradient(180deg, rgba(35,82,153,1) 0%, rgba(58,137,255,1) 100%);
+    filter: blur();
+}
+
