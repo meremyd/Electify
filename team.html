@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/team.css">
+    <link href='https://fonts.googleapis.com/css?family=Moul' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Electify</title>
+    
+</head>
+<body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" style="color: #235299;" href="#">ELECTIFY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav " >
+            <a class="nav-item nav-link " style="color: #235299;" href="home.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link " style="color: #235299;" href="about.html">About</a>
+            <a class="nav-item nav-link " style="color: #235299;" href="#">Team</a>
+            <button class="login-button text-light"><a class="nav-item nav-link text-light" href="login.html">LogIn</button></a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container py-5">
+        <div class="header  d-flex justify-content-center">MEET OUR TEAM</div>
+        <div class="row">
+          <!-- Suliano's Info -->
+          <div class="col-sm-4 d-flex justify-content-center align-items-center mb-4 mb-sm-0">
+            <div class="card w-100" style="max-width: 400px; background-color: transparent; border: none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/suliano.png" class="rounded-circle m-5" alt="Circular Image" width="200">
+                <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#sulianoModal">Mary Myd Suliano</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Quiroy's Info -->
+          <div class="col-sm-4 d-flex justify-content-center align-items-center mb-4 mb-sm-0">
+            <div class="card w-100" style="max-width: 400px; background-color: transparent; border: none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/quiroy.jfif" class="rounded-circle m-5" alt="Circular Image" width="200">
+                <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#quiroyModal">Adrian Quiroy</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Pesidas' Info -->
+          <div class="col-sm-4 d-flex justify-content-center align-items-center">
+            <div class="card w-100" style="max-width: 400px; background-color: transparent; border: none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/pesidas.png" class="rounded-circle m-5" alt="Circular Image" width="200">
+                <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#pesidasModal">Dannafe Pesidas</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Suliano's Modal -->
+      <div class="modal fade" id="sulianoModal" tabindex="-1" aria-labelledby="sulianoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="sulianoModalLabel">Mary Myd Suliano</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/suliano.png" class="rounded-circle mb-4" alt="Suliano's Image" width="200">
+              <p><strong>Name:</strong> Mary Myd Suliano</p>
+              <p><strong>Role:</strong> Front End and Back End</p>
+              <p><strong>Bio:</strong> Experienced developer working on various web technologies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Quiroy's Modal -->
+      <div class="modal fade" id="quiroyModal" tabindex="-1" aria-labelledby="quiroyModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="quiroyModalLabel">Adrian Quiroy</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/quiroy.jfif" class="rounded-circle mb-4" alt="Quiroy's Image" width="200">
+              <p><strong>Name:</strong> Adrian Quiroy</p>
+              <p><strong>Role:</strong>Front End Designer</p>
+              <p><strong>Bio:</strong> Creative designer specializing in user interfaces and experience.</p>
+              <br>
+              <p>
+                He is a 21-year-old aspiring I.T. Student from Cordova Public College and currently living in Marigondon Lapu-Lapu City. He came from General Academic Strand when he was a Senior High Student but decided to pursue Bachelor of Science in Information Technology for it is timely and relevant to the booming field of technology. He is resilient, resourceful, and responsible jk. He believes that if he moves then he is making movements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Pesidas' Modal -->
+      <div class="modal fade" id="pesidasModal" tabindex="-1" aria-labelledby="pesidasModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="pesidasModalLabel">Dannafe Pesidas</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/pesidas.png" class="rounded-circle mb-4" alt="Pesidas' Image" width="200">
+              <p><strong>Name:</strong> Dannafe Pesidas</p>
+              <p><strong>Role:</strong> Front End </p>
+              <p><strong>Bio:</strong> Passionate about managing projects and ensuring timely delivery.</p>
+              <br>
+              <p>
+                Hi, I'm Dannafe Pesidas, and I am 20 years old. I came from the beautiful community of Calawisan in Lapu-Lapu City. Currently, I am a third-year college student pursuing a Bachelor of Science in Information Technology. While this course is challenging and often tests my abilities, I constantly remind myself to stay motivated and determined to overcome any obstacles. I believe that with hard work and perseverance, I can achieve my goals and excel in my chosen field.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
