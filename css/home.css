@@ -76,6 +76,10 @@ body, html {
     margin-top: 10em;
 }
 
+img{
+    margin-top: 5em;
+}
+
 .system{
     color:#235299
 }
