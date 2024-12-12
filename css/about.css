@@ -68,7 +68,165 @@ body, html {
 
 .header{
     font-family: Montserrat;
-    font-weight:bold;
+    font-weight:bolder;
     font-size: 3rem;
     color: #235299;
+}
+
+.card-body{
+    border-radius: 10px;
+}
+
+/* .triangle{
+    width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #d9d9d9;
+	border-bottom: 13px solid transparent;
+    margin-top: -3rem;
+    margin-left: 2rem;
+
+} */
+
+.rectangle {
+    height: 160px;
+    width: 20px;
+    background-color: #d9d9d9;
+    margin-left: 0.85rem;
+  }
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-left: 28px solid #d9d9d9;
+	border-bottom: 17px solid transparent;
+    margin-top: -1.83rem;
+    margin-left: 2rem;
+
+}
+
+.arrow{
+    width: 10rem;
+    height: auto;
+    margin-left: -1.05rem;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+}
+
+.e-voting-solution{
+    font-size: 10px;
+    color: black;
+    font-family: Montserrat, medium;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: -17%;
+    transform: rotate(270deg);
+}
+
+.bottom-design{
+    width:91%;
+    height: 10%;
+    background-color: #3A89FF;
+    top: 87.7%;
+    left: 4.5%;
+    display: block;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    filter: drop-shadow();
+}
+
+.number{
+    display: inline-block;
+    color: #3A89FF;
+}
+
+.pass-name{
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.problem{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+hr{
+    background-color: black;
+    width: 100%;
+}
+
+.solution{
+    padding-top: 1rem;
+    text-align: center;
+
+}
+
+.num-circle{
+    color: #3A89FF;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.num-circle2{
+    color: #3A89FF;
+    height: 60px;
+    width: 60px;
+    background-color: #E4f1f9;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.perks-title{
+    color:#235299;
+    justify-content: center;
+    text-align: left;
+    align-content: center;
+
+}
+
+.perks-body{
+    font-size: 11px;
+}
+
+.vl {
+    border-left: 1px solid black;
+  
+  }
+
+  .features-number{
+    display: inline-block;
+    color: #3A89FF;
+}
+
+.features-title{
+    display: inline-block;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.features-body{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.features-body3{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 12px;
 }
