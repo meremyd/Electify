@@ -167,13 +167,21 @@ hr{
 
 }
 
+.perks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+  }
+
 .num-circle{
     color: #3A89FF;
-    height: 60px;
+    height: 50px;
     width: 60px;
     background-color: white;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
     justify-content: center;
     text-align: center;
     align-content: center;
@@ -181,7 +189,7 @@ hr{
 
 .num-circle2{
     color: #3A89FF;
-    height: 60px;
+    height: 50px;
     width: 60px;
     background-color: #E4f1f9;
     border-radius: 50%;
@@ -201,6 +209,7 @@ hr{
 
 .perks-body{
     font-size: 11px;
+    text-align: left;
 }
 
 .vl {
